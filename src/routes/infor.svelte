@@ -5,6 +5,7 @@
   <p>
     Elegí Svelte como mi framework de desarrollo por diversas razones que hacen que la experiencia de programación sea más fluida y efectiva. En primer lugar, Svelte se destaca por su desempeño excepcional. A diferencia de otros frameworks, Svelte compila el código directamente a JavaScript optimizado en el momento de la construcción, lo que resulta en aplicaciones más rápidas y ligeras. Esta mejora en el rendimiento es crucial para ofrecer una experiencia de usuario ágil y sati
   </p>
+ <p>https://github.com/eduardocastro465/EquipoCripto.git</p>
   <h1>¿Por qué elegí React?</h1>
   <p>
     PrimeReact es un framework de componentes que destaca por su capacidad para
@@ -15,6 +16,7 @@
     esenciales para construir interfaces de usuario interactivas y funcionales
     en aplicaciones de encriptado.<br /><br />
   </p>
+<p>https://yadira-beryl.vercel.app</p>
   <h1>¿Por qué elegí Angular?</h1>
   <p>
     Elegí Angular porque es un framework completo que facilita la creación de
@@ -24,6 +26,7 @@
     desarrollo. También cuenta con una gran comunidad y buena documentación,
     lo que hace más fácil encontrar soluciones y aprender.
   </p>
+
 </main>
 
 <style>

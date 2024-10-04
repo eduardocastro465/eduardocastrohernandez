@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #4caf50;
+    padding: 10px;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center; /* Centra la navegación */
+    flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente línea si es necesario */
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que la lista se envuelva en pantallas pequeñas */
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 5px 10px; /* Espaciado más ligero para pantallas pequeñas */
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px; /* Añade un poco de padding para un clic más fácil */
+    transition: background-color 0.3s; /* Efecto de transición suave */
+  }
+
+  nav a:hover {
+    background-color: rgba(135, 53, 53, 0.854); /* Cambio de color en hover */
+    text-decoration: underline;
+  }
+
+  main {
+    width: 90%; /* Ampliado para pantallas pequeñas */
+    max-width: 1200px; /* Ancho máximo para pantallas grandes */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  p {
+    color: #666;
+  }
+
+  @media (max-width: 768px) {
+    nav ul li {
+      margin: 5px; /* Espaciado más ligero en pantallas pequeñas */
+    }
+
+    nav a {
+      font-size: 14px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    }
+
+    main {
+      width: 95%; /* Mayor ancho en pantallas pequeñas */
+    }
+  }
